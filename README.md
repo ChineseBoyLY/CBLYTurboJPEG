@@ -11,7 +11,7 @@ jpegtubo 可以编译出在Android中使用的so库
 真心快到没有朋友！！！
 
 使用示例：
-
+```
 private byte[] mTempI420 = null;
 private byte[] mMaxJpeg = null;
 
@@ -32,7 +32,7 @@ public void onPreviewFrame(byte[] nv21,xxxx) {
     byte[] jpegDataOut = Arrays.copyOfRange(mMaxJpegData, 0, compressSize);
 
 }
-
+```
 jni层还可以扩展很多函数，欢迎大家一起来挖掘完善学习。
 
 
